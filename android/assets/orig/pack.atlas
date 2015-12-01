@@ -1,0 +1,55 @@
+
+pack.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+estacion
+  rotate: false
+  xy: 2, 260
+  size: 714, 729
+  orig: 714, 729
+  offset: 0, 0
+  index: -1
+joystickball
+  rotate: false
+  xy: 848, 373
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+joystickbg
+  rotate: false
+  xy: 718, 477
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+rails
+  rotate: false
+  xy: 718, 347
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+wagon
+  rotate: false
+  xy: 260, 130
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+wagonunion
+  rotate: false
+  xy: 1232, 861
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

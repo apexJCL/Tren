@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/apex/GitHub/Tren/core/build/libs/core-1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dd505f1ad12bde336d85c63c90ec4d1b64b6a289">
+        <dex dex="/home/apex/GitHub/Tren/android/build/intermediates/pre-dexed/debug/core-1.0-57f1be54ecee9c088e778842f131b8edb099ea9c.jar" />
+    </item>
+
+</items>
