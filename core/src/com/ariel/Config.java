@@ -15,7 +15,7 @@ public class Config {
     private int vibration = 150; // Fuerza de vibracion
     private float accel_sensibility = 1;
     private float accel_deadzone = 1;
-    private Input input_type = Input.JOYSTICK; // Tipo de control
+    private Input input_type = Input.ACCELEROMETER; // Tipo de control
 
 
     public static Config Load(){

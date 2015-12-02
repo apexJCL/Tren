@@ -8,25 +8,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5fcdd4f-f21e-4f71-afb3-210955fc9cc8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gdx_backend_headless_1_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gdx_tools_1_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/assets/orig/images/drawing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/assets/orig/images/estacion1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/assets/orig/images/estacion2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/assets/orig/images/estacion3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/assets/orig/images/photo183115089307609116.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/assets/orig/pack/pack2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/assets/orig/pack/pack3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/export/orig/pack2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/export/orig/pack3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/orig/pack2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/orig/pack3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/particles/green_flame" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/assets/orig/pack/pack.png" afterPath="$PROJECT_DIR$/Tren/assets/orig/pack/pack.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/export/orig/pack.png" afterPath="$PROJECT_DIR$/Tren/export/orig/pack.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/export/project.dt" afterPath="$PROJECT_DIR$/Tren/export/project.dt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/project.dt" afterPath="$PROJECT_DIR$/Tren/project.dt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/raw_assets/rails.png" afterPath="$PROJECT_DIR$/Tren/raw_assets/rails.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/raw_assets/wagon.png" afterPath="$PROJECT_DIR$/Tren/raw_assets/wagon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/raw_assets/wagonunion.png" afterPath="$PROJECT_DIR$/Tren/raw_assets/wagonunion.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/orig/pack.png" afterPath="$PROJECT_DIR$/android/assets/orig/pack.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/orig/pack.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/orig/pack.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/resources/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/resources/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Managers/SceneManager$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Managers/SceneManager$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Managers/SceneManager$State.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Managers/SceneManager$State.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Managers/SceneManager.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Managers/SceneManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Scenes/BaseSceneConfig.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Scenes/BaseSceneConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Scenes/GameScene.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Scenes/GameScene.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/project.dt" afterPath="$PROJECT_DIR$/android/assets/project.dt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Config.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Config.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Scenes/MenuScene.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Scenes/MenuScene.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/build/classes/main/com/ariel/desktop/DesktopLauncher.class" afterPath="$PROJECT_DIR$/desktop/build/classes/main/com/ariel/desktop/DesktopLauncher.class" />
@@ -34,31 +41,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/assets/orig/pack/pack.atlas" afterPath="$PROJECT_DIR$/Tren/assets/orig/pack/pack.atlas" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/export/orig/pack.atlas" afterPath="$PROJECT_DIR$/Tren/export/orig/pack.atlas" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/export/project.dt" afterPath="$PROJECT_DIR$/Tren/export/project.dt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/export/scenes/MainScene.dt" afterPath="$PROJECT_DIR$/Tren/export/scenes/MainScene.dt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/export/scenes/Menu.dt" afterPath="$PROJECT_DIR$/Tren/export/scenes/Menu.dt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/project.dt" afterPath="$PROJECT_DIR$/Tren/project.dt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/project.pit" afterPath="$PROJECT_DIR$/Tren/project.pit" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/scenes/MainScene.dt" afterPath="$PROJECT_DIR$/Tren/scenes/MainScene.dt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/scenes/Menu.dt" afterPath="$PROJECT_DIR$/Tren/scenes/Menu.dt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/orig/pack.atlas" afterPath="$PROJECT_DIR$/android/assets/orig/pack.atlas" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/project.dt" afterPath="$PROJECT_DIR$/android/assets/project.dt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/scenes/MainScene.dt" afterPath="$PROJECT_DIR$/android/assets/scenes/MainScene.dt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/scenes/Menu.dt" afterPath="$PROJECT_DIR$/android/assets/scenes/Menu.dt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/orig/pack.atlas" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/orig/pack.atlas" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/scenes/MainScene.dt" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/scenes/MainScene.dt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/res/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/core.iml" afterPath="$PROJECT_DIR$/core/core.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/ariel/Managers/SceneManager.java" afterPath="$PROJECT_DIR$/core/src/com/ariel/Managers/SceneManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/ariel/Scenes/BaseSceneConfig.java" afterPath="$PROJECT_DIR$/core/src/com/ariel/Scenes/BaseSceneConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/ariel/Scenes/GameScene.java" afterPath="$PROJECT_DIR$/core/src/com/ariel/Scenes/GameScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/ariel/Scenes/MenuScene.java" afterPath="$PROJECT_DIR$/core/src/com/ariel/Scenes/MenuScene.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/ariel/Config.java" afterPath="$PROJECT_DIR$/core/src/com/ariel/Config.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/src/com/ariel/desktop/DesktopLauncher.java" afterPath="$PROJECT_DIR$/desktop/src/com/ariel/desktop/DesktopLauncher.java" />
     </list>
     <ignored path="Tren.iws" />
@@ -208,78 +199,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Tren.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/ariel/IScripts/Tren.java">
+      <file leaf-file-name="DesktopLauncher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop/src/com/ariel/desktop/DesktopLauncher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Config.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HUD.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Stages/HUD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="72" column="56" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameScene.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Scenes/GameScene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuScene.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Scenes/MenuScene.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.09030101">
               <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemWrapper.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.underwaterapps.overlap2druntime/overlap2d-runtime-libgdx/0.1.2-SNAPSHOT/52d937a1a94f09c3d21f6760e429980089f84a7e/overlap2d-runtime-libgdx-0.1.2-SNAPSHOT-sources.jar!/com/uwsoft/editor/renderer/utils/ItemWrapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseSceneConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Scenes/BaseSceneConfig.java">
+      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Stages/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding>
-                <element signature="e#1909#1910#0" expanded="true" />
-                <element signature="e#1938#1939#0" expanded="true" />
-              </folding>
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SceneManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Managers/SceneManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="60" column="54" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2407,16 +2362,16 @@
         <option value="$PROJECT_DIR$/core/src/com/ariel/MainGame.java" />
         <option value="$PROJECT_DIR$/core/src/com/ariel/IScripts/Tren.java" />
         <option value="$PROJECT_DIR$/core/src/com/ariel/Stages/Menu.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ariel/Config.java" />
         <option value="$PROJECT_DIR$/core/src/com/ariel/Stages/HUD.java" />
-        <option value="$PROJECT_DIR$/desktop/src/com/ariel/desktop/DesktopLauncher.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ariel/Managers/SceneManager.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/core/src/com/ariel/Scenes/GameScene.java" />
         <option value="$PROJECT_DIR$/core/src/com/ariel/Scenes/BaseSceneConfig.java" />
         <option value="$PROJECT_DIR$/core/src/com/ariel/IScripts/Item.java" />
         <option value="$PROJECT_DIR$/core/src/com/ariel/IScripts/Luz.java" />
         <option value="$PROJECT_DIR$/core/src/com/ariel/Scenes/MenuScene.java" />
+        <option value="$PROJECT_DIR$/desktop/src/com/ariel/desktop/DesktopLauncher.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ariel/Managers/SceneManager.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ariel/Config.java" />
       </list>
     </option>
   </component>
@@ -2433,9 +2388,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
     <option name="y" value="22" />
-    <option name="width" value="1368" />
+    <option name="width" value="1358" />
     <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -2463,7 +2417,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2738,13 +2693,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="SearchEverywhereHistoryKey" value="Deskto&#9;FILE&#9;file:///home/apex/Documents/GitHub/Tren/desktop/src/com/ariel/desktop/DesktopLauncher.java&#10;Android&#9;FILE&#9;file:///home/apex/GitHub/Tren/android/AndroidManifest.xml&#10;Des&#9;FILE&#9;file:///home/apex/GitHub/Tren/desktop/src/com/ariel/desktop/DesktopLauncher.java&#10;Base&#9;FILE&#9;file:///home/apex/GitHub/Tren/core/src/com/ariel/Scenes/BaseSceneConfig.java&#10;Item&#9;PSI&#9;JAVA://com.ariel.IScripts.Item&#10;MainG&#9;PSI&#9;JAVA://com.ariel.MainGame&#10;des&#9;PSI&#9;JAVA://com.ariel.desktop.DesktopLauncher" />
+    <property name="SearchEverywhereHistoryKey" value="Deskt&#9;FILE&#9;file:///home/apex/Documents/GitHub/Tren/desktop/src/com/ariel/desktop/DesktopLauncher.java&#10;Deskto&#9;FILE&#9;file:///home/apex/Documents/GitHub/Tren/desktop/src/com/ariel/desktop/DesktopLauncher.java&#10;Android&#9;FILE&#9;file:///home/apex/GitHub/Tren/android/AndroidManifest.xml&#10;Des&#9;FILE&#9;file:///home/apex/GitHub/Tren/desktop/src/com/ariel/desktop/DesktopLauncher.java&#10;Base&#9;FILE&#9;file:///home/apex/GitHub/Tren/core/src/com/ariel/Scenes/BaseSceneConfig.java&#10;Item&#9;PSI&#9;JAVA://com.ariel.IScripts.Item&#10;MainG&#9;PSI&#9;JAVA://com.ariel.MainGame&#10;des&#9;PSI&#9;JAVA://com.ariel.desktop.DesktopLauncher" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="01234567890123456789" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -3198,6 +3152,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -3268,7 +3227,9 @@
       <workItem from="1448831015836" duration="562000" />
       <workItem from="1448930786638" duration="64000" />
       <workItem from="1448931038138" duration="1811000" />
-      <workItem from="1449005651355" duration="10204000" />
+      <workItem from="1449005651355" duration="10372000" />
+      <workItem from="1449020576276" duration="2293000" />
+      <workItem from="1449030738923" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="Actualización:&#10;&#10;Ya se mueve, marca distancia.&#10;Menú básico">
       <created>1448773696174</created>
@@ -3306,42 +3267,48 @@
       <option name="project" value="LOCAL" />
       <updated>1448831612183</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Actualización:&#10;&#10;Ya se mueve, marca distancia.&#10;Menú básico">
+      <created>1449020315440</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1449020315440</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12641000" />
+    <option name="totallyTimeSpent" value="15126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="22" width="1368" height="746" extended-state="6" />
+    <frame x="0" y="22" width="1358" height="746" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24355084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24311927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3371,6 +3338,46 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/desktop/src/com/ariel/desktop/DesktopLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ariel/IScripts/Tren.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Stages/HUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="56" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Scenes/GameScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/ariel/IScripts/Tren.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3503,9 +3510,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3521,15 +3526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1334#1335#0" expanded="false" />
-            <element signature="e#1388#1389#0" expanded="false" />
-            <element signature="e#7482#7483#0" expanded="false" />
-            <element signature="e#7552#7553#0" expanded="false" />
-            <element signature="e#11973#11974#0" expanded="false" />
-            <element signature="e#11998#11999#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3561,9 +3557,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3594,15 +3588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1334#1335#0" expanded="false" />
-            <element signature="e#1388#1389#0" expanded="false" />
-            <element signature="e#7482#7483#0" expanded="false" />
-            <element signature="e#7552#7553#0" expanded="false" />
-            <element signature="e#11973#11974#0" expanded="false" />
-            <element signature="e#11998#11999#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3610,14 +3595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/com/ariel/desktop/DesktopLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41326532">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3633,7 +3610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3641,23 +3617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45918366">
           <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ariel/MainGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3673,7 +3632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33277592">
           <caret line="142" column="19" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3682,33 +3640,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Managers/SceneManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27884614">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Stages/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.8125">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Scenes/BaseSceneConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#1909#1910#0" expanded="true" />
-            <element signature="e#1938#1939#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3728,30 +3659,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.underwaterapps.overlap2druntime/overlap2d-runtime-libgdx/0.1.2-SNAPSHOT/52d937a1a94f09c3d21f6760e429980089f84a7e/overlap2d-runtime-libgdx-0.1.2-SNAPSHOT-sources.jar!/com/uwsoft/editor/renderer/utils/ItemWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.7.1/be1fd59836cdefcdc60bb524026af6f3926e0bc/gdx-backend-lwjgl-1.7.1-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33173078">
           <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.underwaterapps.overlap2druntime/overlap2d-runtime-libgdx/0.1.2-SNAPSHOT/52d937a1a94f09c3d21f6760e429980089f84a7e/overlap2d-runtime-libgdx-0.1.2-SNAPSHOT-sources.jar!/com/uwsoft/editor/renderer/utils/ItemWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.045918368">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Scenes/MenuScene.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18367347">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ariel/MainGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82653064">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Scenes/BaseSceneConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1581633">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/src/com/ariel/desktop/DesktopLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09030101">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Stages/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ariel/Managers/SceneManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="54" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
