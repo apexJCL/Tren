@@ -79,16 +79,30 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
-      <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="box2dlights-1.4" level="project" />
     <orderEntry type="library" exported="" name="ashley-1.6.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="gdx-1.7.1" level="project" />
+    <orderEntry type="library" exported="" name="box2dlights-1.4" level="project" />
+    <orderEntry type="library" exported="" name="lwjgl_util-2.9.2" level="project" />
+    <orderEntry type="library" exported="" name="jorbis-0.0.17" level="project" />
+    <orderEntry type="library" exported="" name="jinput-platform-2.0.5-natives-osx" level="project" />
+    <orderEntry type="library" exported="" name="jutils-1.0.0" level="project" />
+    <orderEntry type="library" exported="" name="lwjgl-platform-2.9.2-natives-linux" level="project" />
     <orderEntry type="library" exported="" name="overlap2d-runtime-libgdx-0.1.2-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="gdx-freetype-1.7.1" level="project" />
+    <orderEntry type="library" exported="" name="gdx-tools-1.7.1" level="project" />
+    <orderEntry type="library" exported="" name="gdx-backend-headless-1.7.1" level="project" />
+    <orderEntry type="library" exported="" name="jinput-platform-2.0.5-natives-windows" level="project" />
+    <orderEntry type="library" exported="" name="lwjgl-platform-2.9.2-natives-osx" level="project" />
+    <orderEntry type="library" exported="" name="gdx-backend-lwjgl-1.7.1" level="project" />
     <orderEntry type="library" exported="" name="gdx-backend-android-1.7.1" level="project" />
+    <orderEntry type="library" exported="" name="jinput-platform-2.0.5-natives-linux" level="project" />
+    <orderEntry type="library" exported="" name="lwjgl-2.9.2" level="project" />
+    <orderEntry type="library" exported="" name="gdx-1.7.1" level="project" />
+    <orderEntry type="library" exported="" name="jlayer-1.0.1-gdx" level="project" />
+    <orderEntry type="library" exported="" name="jinput-2.0.5" level="project" />
+    <orderEntry type="library" exported="" name="gdx-freetype-1.7.1" level="project" />
+    <orderEntry type="library" exported="" name="lwjgl-platform-2.9.2-natives-windows" level="project" />
     <orderEntry type="library" exported="" name="gdx-box2d-1.7.1" level="project" />
     <orderEntry type="module" module-name="core" exported="" />
   </component>

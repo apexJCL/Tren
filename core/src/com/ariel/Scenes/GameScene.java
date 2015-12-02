@@ -19,11 +19,10 @@ public class GameScene extends BaseSceneConfig {
 
     @Override
     public void addScripts() {
-        // Se obtiene la raiz para obtener al jugador y asignarle sus datos
-        ItemWrapper root = new ItemWrapper(sceneLoader.getRoot());
+        super.addScripts();
         // Cargamos el script del tren
         Tren tren = new Tren((OrthographicCamera)viewport.getCamera(),(HUD)stage);
         // Se le asigna
-        root.getChild("tren").addScript(tren);
+        rootWrapper.getChild("tren").addScript(tren);
     }
 }

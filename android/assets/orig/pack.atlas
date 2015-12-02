@@ -20,7 +20,7 @@ estacion
   index: -1
 joystickball
   rotate: false
-  xy: 848, 373
+  xy: 260, 156
   size: 102, 102
   orig: 102, 102
   offset: 0, 0
@@ -34,22 +34,29 @@ joystickbg
   index: -1
 rails
   rotate: false
-  xy: 718, 347
+  xy: 1232, 513
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 wagon
   rotate: false
-  xy: 260, 130
+  xy: 1615, 861
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 wagonunion
   rotate: false
-  xy: 1232, 861
+  xy: 718, 347
   size: 128, 128
   orig: 128, 128
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 1232, 643
+  size: 381, 346
+  orig: 381, 346
   offset: 0, 0
   index: -1

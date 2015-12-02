@@ -5,6 +5,7 @@ import com.ariel.Scenes.GameScene;
 import com.ariel.Scenes.MenuScene;
 import com.ariel.Stages.HUD;
 import com.ariel.Stages.Menu;
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.uwsoft.editor.renderer.SceneLoader;

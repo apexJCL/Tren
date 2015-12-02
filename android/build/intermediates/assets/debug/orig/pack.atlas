@@ -34,7 +34,7 @@ joystickbg
   index: -1
 rails
   rotate: false
-  xy: 718, 347
+  xy: 1232, 861
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -48,7 +48,7 @@ wagon
   index: -1
 wagonunion
   rotate: false
-  xy: 1232, 861
+  xy: 718, 347
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
