@@ -7,51 +7,7 @@
     <bookmark url="file://$PROJECT_DIR$/core/src/com/ariel/Stages/HUD.java" line="19" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5fcdd4f-f21e-4f71-afb3-210955fc9cc8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/assets/orig/images/drawing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/assets/orig/images/estacion1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/assets/orig/images/estacion2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/assets/orig/images/estacion3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/assets/orig/images/photo183115089307609116.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/assets/orig/pack/pack2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/assets/orig/pack/pack3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/export/orig/pack2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tren/export/orig/pack3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/orig/pack2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/orig/pack3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/assets/particles/green_flame" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/assets/orig/pack/pack.png" afterPath="$PROJECT_DIR$/Tren/assets/orig/pack/pack.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/export/orig/pack.png" afterPath="$PROJECT_DIR$/Tren/export/orig/pack.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/export/project.dt" afterPath="$PROJECT_DIR$/Tren/export/project.dt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/project.dt" afterPath="$PROJECT_DIR$/Tren/project.dt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/raw_assets/rails.png" afterPath="$PROJECT_DIR$/Tren/raw_assets/rails.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/raw_assets/wagon.png" afterPath="$PROJECT_DIR$/Tren/raw_assets/wagon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/raw_assets/wagonunion.png" afterPath="$PROJECT_DIR$/Tren/raw_assets/wagonunion.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/orig/pack.png" afterPath="$PROJECT_DIR$/android/assets/orig/pack.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/project.dt" afterPath="$PROJECT_DIR$/android/assets/project.dt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Config.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Config.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Scenes/MenuScene.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/ariel/Scenes/MenuScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/build/classes/main/com/ariel/desktop/DesktopLauncher.class" afterPath="$PROJECT_DIR$/desktop/build/classes/main/com/ariel/desktop/DesktopLauncher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/assets/orig/pack/pack.atlas" afterPath="$PROJECT_DIR$/Tren/assets/orig/pack/pack.atlas" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/export/orig/pack.atlas" afterPath="$PROJECT_DIR$/Tren/export/orig/pack.atlas" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/export/scenes/MainScene.dt" afterPath="$PROJECT_DIR$/Tren/export/scenes/MainScene.dt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/export/scenes/Menu.dt" afterPath="$PROJECT_DIR$/Tren/export/scenes/Menu.dt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/project.pit" afterPath="$PROJECT_DIR$/Tren/project.pit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/scenes/MainScene.dt" afterPath="$PROJECT_DIR$/Tren/scenes/MainScene.dt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tren/scenes/Menu.dt" afterPath="$PROJECT_DIR$/Tren/scenes/Menu.dt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/orig/pack.atlas" afterPath="$PROJECT_DIR$/android/assets/orig/pack.atlas" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/scenes/MainScene.dt" afterPath="$PROJECT_DIR$/android/assets/scenes/MainScene.dt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/assets/scenes/Menu.dt" afterPath="$PROJECT_DIR$/android/assets/scenes/Menu.dt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/ariel/Config.java" afterPath="$PROJECT_DIR$/core/src/com/ariel/Config.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/src/com/ariel/desktop/DesktopLauncher.java" afterPath="$PROJECT_DIR$/desktop/src/com/ariel/desktop/DesktopLauncher.java" />
-    </list>
+    <list default="true" id="e5fcdd4f-f21e-4f71-afb3-210955fc9cc8" name="Default" comment="" />
     <ignored path="Tren.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -3229,7 +3185,7 @@
       <workItem from="1448931038138" duration="1811000" />
       <workItem from="1449005651355" duration="10372000" />
       <workItem from="1449020576276" duration="2293000" />
-      <workItem from="1449030738923" duration="24000" />
+      <workItem from="1449030738923" duration="100000" />
     </task>
     <task id="LOCAL-00001" summary="Actualización:&#10;&#10;Ya se mueve, marca distancia.&#10;Menú básico">
       <created>1448773696174</created>
@@ -3273,18 +3229,25 @@
       <option name="project" value="LOCAL" />
       <updated>1449020315440</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Actualización:&#10;&#10;Ya se mueve, marca distancia.&#10;Menú básico">
+      <created>1449030808241</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1449030808241</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15126000" />
+    <option name="totallyTimeSpent" value="15202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1358" height="746" extended-state="4" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -3306,7 +3269,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3663,6 +3625,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33173078">
           <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
