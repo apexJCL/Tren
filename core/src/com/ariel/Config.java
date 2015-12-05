@@ -15,11 +15,16 @@ public class Config {
     private int vibration = 150; // Fuerza de vibracion
     private float accel_sensibility = 1;
     private float accel_deadzone = 1;
-    private Input input_type = Input.ACCELEROMETER; // Tipo de control
+    private Input input_type = Input.JOYSTICK; // Tipo de control
+    private String currentLevel = "MainScene";
 
 
     public static Config Load(){
         return new Json().fromJson(Config.class, Gdx.app.getPreferences("trenes").getString("config"));
+    }
+
+    public String getCurrentLevel() {
+        return currentLevel;
     }
 
     public enum Input{

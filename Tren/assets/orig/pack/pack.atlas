@@ -6,14 +6,14 @@ filter: Linear,Linear
 repeat: none
 bg
   rotate: false
-  xy: 1585, 1039
+  xy: 1598, 1039
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 drawing
   rotate: false
-  xy: 1585, 885
+  xy: 1598, 885
   size: 133, 152
   orig: 133, 152
   offset: 0, 0
@@ -25,7 +25,7 @@ estacion
   orig: 714, 729
   offset: 0, 0
   index: -1
-estacion2
+estacion1
   rotate: false
   xy: 2, 106
   size: 1080, 1920
@@ -41,7 +41,7 @@ joystickball
   index: -1
 joystickbg
   rotate: false
-  xy: 1084, 256
+  xy: 1084, 783
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
@@ -55,28 +55,21 @@ nuevotren
   index: -1
 photo183115089307609116
   rotate: false
-  xy: 1084, 770
+  xy: 1084, 256
   size: 499, 525
   orig: 499, 525
   offset: 0, 0
   index: -1
-rails
-  rotate: false
-  xy: 1800, 1736
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
 wagon
   rotate: false
-  xy: 1214, 126
+  xy: 1084, 126
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 wagonunion
   rotate: false
-  xy: 1084, 126
+  xy: 1800, 1736
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
@@ -87,7 +80,7 @@ size: 2048,2048
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-estacion1
+estacion2
   rotate: false
   xy: 2, 2
   size: 1080, 1920
@@ -105,5 +98,31 @@ estacion3
   xy: 2, 2
   size: 1080, 1920
   orig: 1080, 1920
+  offset: 0, 0
+  index: -1
+
+pack4.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+estacion5
+  rotate: false
+  xy: 2, 2
+  size: 1080, 1920
+  orig: 1080, 1920
+  offset: 0, 0
+  index: -1
+
+pack5.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+estacion5 (1)
+  rotate: false
+  xy: 2, 2
+  size: 1080, 1908
+  orig: 1080, 1908
   offset: 0, 0
   index: -1

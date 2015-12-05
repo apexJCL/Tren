@@ -8,13 +8,30 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import com.uwsoft.editor.renderer.SceneLoader;
 import com.uwsoft.editor.renderer.utils.ItemWrapper;
 
-/**
- * Created by apex on 11/28/15.
- */
 public class GameScene extends BaseSceneConfig {
+
+    private LEVEL current = LEVEL.L1;
 
     public GameScene(String sceneName, SceneLoader sceneLoader, Viewport viewport, Stage uiStage) {
         super(sceneName, sceneLoader, viewport, uiStage);
+    }
+
+    public enum LEVEL{
+        L1, L2
+    }
+
+    public String getLevelName(){
+        switch (current){
+            case L1:
+                return "MainScene";
+            case L2:
+                return "Nivel2";
+        }
+        return "Menu";
+    }
+
+    public void setLevel(LEVEL newLevel){
+        this.current = newLevel;
     }
 
     @Override
