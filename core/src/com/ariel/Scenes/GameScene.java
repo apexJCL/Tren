@@ -34,7 +34,7 @@ public class GameScene extends BaseSceneConfig {
         // Se le asigna
         rootWrapper.getChild("tren").addScript(tren);
         // Ahora cargamos la estacion
-        EstacionFinal estacionFinal = new EstacionFinal(tren);
+        EstacionFinal estacionFinal = new EstacionFinal(tren, stage);
         // Se asigna a la estacion
         rootWrapper.getChild("final_station").addScript(estacionFinal);
     }

@@ -22,6 +22,7 @@ public class Tren extends Item {
     private DimensionsComponent dimensionsComponent;
     private TransformComponent transformComponent;
     private final OrthographicCamera camera;
+    private boolean arrived = false;
     private boolean isAccelerating = false;
     private boolean begin = false;
     private long startTime;
@@ -78,6 +79,10 @@ public class Tren extends Item {
             begin = !begin;
             startTime = TimeUtils.millis();
         }
+        else{
+            if(!arrived)
+                stage.setValorTiempo(TimeUtils.timeSinceMillis(startTime));
+        }
         switch (type){
             case Android:
                 AndroidControls(delta);
@@ -88,7 +93,6 @@ public class Tren extends Item {
                 break;
         }
         stage.setValorDistancia((int)distance);
-        stage.setValorTiempo(TimeUtils.timeSinceMillis(startTime));
         camera.position.lerp(new Vector3(camera.position.x, transformComponent.y + dimensionsComponent.height/2f, 0), 1);
     }
 
@@ -162,6 +166,10 @@ public class Tren extends Item {
     }
 
     public float getY() { return  transformComponent.y; }
+
+    public void notifyEnd(){
+        arrived = true;
+    }
 
     public boolean isAccelerating(){ return isAccelerating; }
 }

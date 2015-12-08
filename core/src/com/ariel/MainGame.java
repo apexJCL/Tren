@@ -7,6 +7,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.utils.Json;
+import com.kotcrab.vis.ui.VisUI;
 
 public class MainGame extends ApplicationAdapter {
 
@@ -14,6 +15,8 @@ public class MainGame extends ApplicationAdapter {
 
     @Override
 	public void create () {
+        // Cargamos VisUI
+        VisUI.load();
         configLoader();
         // Creamos el manejador de escenas
         sceneManager = new SceneManager();

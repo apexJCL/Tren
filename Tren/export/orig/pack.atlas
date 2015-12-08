@@ -6,7 +6,7 @@ filter: Linear,Linear
 repeat: none
 bg
   rotate: false
-  xy: 1084, 11
+  xy: 1598, 934
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -54,11 +54,33 @@ menu
   orig: 512, 512
   offset: 0, 0
   index: -1
+menu34
+  rotate: false
+  xy: 1800, 1192
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+menubg
+  rotate: false
+  xy: 106, 40
+  size: 64, 64
+  split: 7, 7, 7, 6
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 nuevotren
   rotate: false
   xy: 1800, 1866
   size: 160, 160
   orig: 160, 160
+  offset: 0, 0
+  index: -1
+refresh62
+  rotate: false
+  xy: 1800, 1322
+  size: 128, 128
+  orig: 128, 128
   offset: 0, 0
   index: -1
 wagon

@@ -57,7 +57,7 @@ public class SceneManager {
                 break;
             case GAMEPLAY:
                 // Cargamos el HUD antes que la escena, ya que aqui se ocupa acceder a cosas del mismo
-                stage = new HUD(sceneLoader);
+                stage = new HUD(sceneLoader, this);
                 // Cambiamos la escena
                 actualScene = new GameScene(SaveStateManager.Load().getActualLevel(), sceneLoader, viewport, stage);
                 // cargamos la escena

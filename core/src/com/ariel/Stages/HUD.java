@@ -1,13 +1,16 @@
 package com.ariel.Stages;
 
 import com.ariel.Config;
+import com.ariel.Managers.SceneManager;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ActorGestureListener;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.uwsoft.editor.renderer.SceneLoader;
 import com.uwsoft.editor.renderer.data.CompositeItemVO;
@@ -19,12 +22,14 @@ import com.uwsoft.editor.renderer.scene2d.CompositeActor;
 public class HUD extends Stage {
 
     private final Table UI;
-    private CompositeActor panel_distancia, joystick, panel_tiempo;
-    private Label valor, min, sec, millis;
+    private final SceneManager sceneManager;
+    private CompositeActor panel_distancia, joystick, panel_tiempo, mensaje_final;
+    private Label valor_distancia, min, sec, millis;
 
-
-    public HUD(SceneLoader sceneLoader){
+    public HUD(SceneLoader sceneLoader, SceneManager sceneManager){
         super(new FitViewport(720, 1280)); // Inicializamos para que se adapte igualmente a la pantalla
+        // GUardamos referencia al scenemanager que nos permite controlar las escenas mostradas
+        this.sceneManager = sceneManager;
         // Le decimos que el que recibe la entrada tactil es este escenario
         Gdx.input.setInputProcessor(this);
         // Aqui se obtiene el objeto compuesto desde la libreria
@@ -35,6 +40,12 @@ public class HUD extends Stage {
         CompositeItemVO time = sceneLoader.loadVoFromLibrary("time_banner");
         // Ahora lo generamos
         panel_tiempo = new CompositeActor(time, sceneLoader.getRm());
+        // Cargamos el mensaje final
+        CompositeItemVO fin = sceneLoader.loadVoFromLibrary("finish_msg");
+        // Lo asignamos
+        mensaje_final = new CompositeActor(fin, sceneLoader.getRm());
+        // Configuramos sus botones
+        configureMenuButtons();
         // Creamos la tabla que organizara al actor en su lugar
         UI = new Table();
         // Que llene la pantalla
@@ -55,6 +66,25 @@ public class HUD extends Stage {
         setupLabels();
         // Agregamos la tabla al stage
         addActor(UI);
+    }
+
+    private void configureMenuButtons() {
+        final CompositeActor repeat = (CompositeActor) mensaje_final.getItem("repeat");
+        repeat.setTouchable(Touchable.enabled);
+        repeat.addListener(new ClickListener(){
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+                sceneManager.changeScene(SceneManager.State.GAMEPLAY);
+            }
+        });
+        final CompositeActor menu = (CompositeActor) mensaje_final.getItem("menu");
+        menu.setTouchable(Touchable.enabled);
+        menu.addListener(new ClickListener(){
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+
+            }
+        });
     }
 
     private void configurarJoystick(SceneLoader sceneLoader) {
@@ -97,7 +127,7 @@ public class HUD extends Stage {
     }
 
     private void setupLabels(){
-        valor = (Label) panel_distancia.getItem("meter");
+        valor_distancia = (Label) panel_distancia.getItem("meter");
         min = (Label) panel_tiempo.getItem("minutes");
         sec = (Label) panel_tiempo.getItem("seconds");
         millis = (Label) panel_tiempo.getItem("millis");
@@ -107,20 +137,32 @@ public class HUD extends Stage {
         millis.setText("");
     }
 
+    public void showFinishedMessage(){
+        // Remueve todos los banners del padre
+        UI.clearChildren();
+        // Quitamos el joystick
+        joystick.remove();
+        // Ahora nos encargamos de rellenar los campos de la ventana
+        Label tiempo = (Label) mensaje_final.getItem("time");
+        Label distancia = (Label) mensaje_final.getItem("distance");
+        tiempo.setText("Tiempo: "+min.getText()+sec.getText()+millis.getText());
+        distancia.setText("Distancia: "+ valor_distancia.getText());
+        // Asigna la posicion del mensaje
+        mensaje_final.setPosition((getWidth() - mensaje_final.getWidth())/2f, (getHeight() - mensaje_final.getHeight())/2f);
+        addActor(mensaje_final);
+    }
+
     /**
      * Aqui se actualiza la etiqueta que marca la distancia recorrida
      * @param distancia
      */
     public void setValorDistancia(int distancia){
-        if(distancia < 1000)
-            valor.setText(distancia+"m");
-        else
-            valor.setText((distancia/1000)+"km");
+        valor_distancia.setText(distancia+"m");
     }
 
     public void setValorTiempo(long tiempo){
         min.setText(String.valueOf(tiempo/60000)+":");
-        sec.setText(String.valueOf((tiempo/1000))+":");
+        sec.setText(String.valueOf((tiempo/1000)%60)+":");
         millis.setText(String.valueOf(tiempo%1000));
     }
 
