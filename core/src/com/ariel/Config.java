@@ -16,15 +16,13 @@ public class Config {
     private float accel_sensibility = 1;
     private float accel_deadzone = 1;
     private Input input_type = Input.JOYSTICK; // Tipo de control
-    private String currentLevel = "MainScene";
-
 
     public static Config Load(){
-        return new Json().fromJson(Config.class, Gdx.app.getPreferences("trenes").getString("config"));
+        return new Json().fromJson(Config.class, Gdx.app.getPreferences(prefName).getString(prefId));
     }
 
-    public String getCurrentLevel() {
-        return currentLevel;
+    public static String getName() {
+        return prefName;
     }
 
     public enum Input{

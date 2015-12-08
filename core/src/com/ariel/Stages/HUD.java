@@ -19,7 +19,9 @@ import com.uwsoft.editor.renderer.scene2d.CompositeActor;
 public class HUD extends Stage {
 
     private final Table UI;
-    private CompositeActor panel_distancia, joystick;
+    private CompositeActor panel_distancia, joystick, panel_tiempo;
+    private Label valor, min, sec, millis;
+
 
     public HUD(SceneLoader sceneLoader){
         super(new FitViewport(720, 1280)); // Inicializamos para que se adapte igualmente a la pantalla
@@ -29,12 +31,17 @@ public class HUD extends Stage {
         CompositeItemVO panel = sceneLoader.loadVoFromLibrary("panel_distancia");
         // De aqui se instancia el actor para poder modificar sus propiedades, entre otros
         panel_distancia = new CompositeActor(panel, sceneLoader.getRm());
+        // Ahora obtenemos el del tiempo
+        CompositeItemVO time = sceneLoader.loadVoFromLibrary("time_banner");
+        // Ahora lo generamos
+        panel_tiempo = new CompositeActor(time, sceneLoader.getRm());
         // Creamos la tabla que organizara al actor en su lugar
         UI = new Table();
         // Que llene la pantalla
         UI.setFillParent(true);
         // Que se organize hasta arriba a la izquierda y se expanda en X e Y
-        UI.add(panel_distancia).top().left().expand().row();
+        UI.add(panel_distancia).top().left().expandX().row();
+        UI.add(panel_tiempo).top().left().expandY().row();
         // Verificamos el tipo de entrada
         Config cfg = Config.Load();
         switch (cfg.getInputType()){ // Este sólo aplica si es Android
@@ -44,6 +51,8 @@ public class HUD extends Stage {
                 configurarJoystick(sceneLoader);
                 break;
         }
+        // Ajustamos las etiquetas
+        setupLabels();
         // Agregamos la tabla al stage
         addActor(UI);
     }
@@ -87,16 +96,32 @@ public class HUD extends Stage {
         });
     }
 
+    private void setupLabels(){
+        valor = (Label) panel_distancia.getItem("meter");
+        min = (Label) panel_tiempo.getItem("minutes");
+        sec = (Label) panel_tiempo.getItem("seconds");
+        millis = (Label) panel_tiempo.getItem("millis");
+        // Default value
+        min.setText("");
+        sec.setText("");
+        millis.setText("");
+    }
+
     /**
      * Aqui se actualiza la etiqueta que marca la distancia recorrida
      * @param distancia
      */
     public void setValorDistancia(int distancia){
-        Label valor = (Label) panel_distancia.getItem("meter");
-        if(distancia < 9000)
+        if(distancia < 1000)
             valor.setText(distancia+"m");
         else
             valor.setText((distancia/1000)+"km");
+    }
+
+    public void setValorTiempo(long tiempo){
+        min.setText(String.valueOf(tiempo/60000)+":");
+        sec.setText(String.valueOf((tiempo/1000))+":");
+        millis.setText(String.valueOf(tiempo%1000));
     }
 
     /**
