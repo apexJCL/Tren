@@ -3,10 +3,8 @@ package com.ariel.Stages;
 import com.ariel.Config;
 import com.ariel.Managers.SceneManager;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.scenes.scene2d.Actor;
-import com.badlogic.gdx.scenes.scene2d.InputEvent;
-import com.badlogic.gdx.scenes.scene2d.Stage;
-import com.badlogic.gdx.scenes.scene2d.Touchable;
+import com.badlogic.gdx.Input;
+import com.badlogic.gdx.scenes.scene2d.*;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ActorGestureListener;
@@ -82,7 +80,16 @@ public class HUD extends Stage {
         menu.addListener(new ClickListener(){
             @Override
             public void clicked(InputEvent event, float x, float y) {
-
+                sceneManager.changeScene(SceneManager.State.MENU);
+            }
+        });
+        // Configuramos que la tecla de menu o back funcionará para abrir el menú
+        addListener(new InputListener(){
+            @Override
+            public boolean keyTyped(InputEvent event, char character) {
+                if(event.getKeyCode() == Input.Keys.BACK)
+                    System.out.println("Back Pressed");
+                return true;
             }
         });
     }

@@ -23,6 +23,7 @@ public class Menu extends Stage {
     public Menu(final SceneManager manager, SceneLoader sceneLoader){
         super(new FitViewport(720, 1280));
         Gdx.input.setInputProcessor(this);
+        Gdx.input.setCatchBackKey(false);
         // Guardamos la referencia al manager
         this.manager = manager;
         // Se obtiene el boton
@@ -69,6 +70,7 @@ public class Menu extends Stage {
                     manager.changeScene(SceneManager.State.GAMEPLAY);
                     break;
                 case CONFIG:
+                    manager.changeScene(SceneManager.State.CONFIG);
                     break;
             }
         }

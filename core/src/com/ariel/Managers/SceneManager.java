@@ -2,8 +2,10 @@ package com.ariel.Managers;
 
 import com.ariel.Config;
 import com.ariel.Scenes.BaseSceneConfig;
+import com.ariel.Scenes.ConfigScene;
 import com.ariel.Scenes.GameScene;
 import com.ariel.Scenes.MenuScene;
+import com.ariel.Stages.ConfigMenu;
 import com.ariel.Stages.HUD;
 import com.ariel.Stages.Menu;
 import com.badlogic.gdx.Gdx;
@@ -48,22 +50,31 @@ public class SceneManager {
      * Enumeradores para controlar las escenas
      */
     public enum State{
-        MENU, GAMEPLAY
+        MENU, GAMEPLAY, CONFIG
     }
 
     public void changeScene(State scene){
         switch (scene){
             case MENU:
+                actualScene = new MenuScene("Menu", sceneLoader, viewport);
+                // Cargamos el stage de stage
+                stage = new Menu(this, sceneLoader);
                 break;
             case GAMEPLAY:
                 // Cargamos el HUD antes que la escena, ya que aqui se ocupa acceder a cosas del mismo
                 stage = new HUD(sceneLoader, this);
                 // Cambiamos la escena
                 actualScene = new GameScene(SaveStateManager.Load().getActualLevel(), sceneLoader, viewport, stage);
-                // cargamos la escena
-                actualScene.Load();
+                break;
+            case CONFIG:
+                // Cargamos la escena
+                actualScene = new ConfigScene("ConfigMenu", sceneLoader, viewport);
+                // Definimos el nuevo stage
+                stage = new ConfigMenu(this, sceneLoader);
                 break;
         }
+        // Le indicamos que cargue la escena
+        actualScene.Load();
     }
 
     public FitViewport getViewport() { return viewport; }
