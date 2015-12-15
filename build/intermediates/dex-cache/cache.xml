@@ -5,8 +5,15 @@
         jar="/home/apex/GitHub/Tren/core/build/libs/core-1.0.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="2523b9ba1148f5d1982ab7d4a1d9b145a6cb5aac">
+        sha1="6587007b084f40547c66732c59f00509648c5b6b">
         <dex dex="/home/apex/GitHub/Tren/android/build/intermediates/pre-dexed/debug/core-1.0-57f1be54ecee9c088e778842f131b8edb099ea9c.jar" />
+    </item>
+    <item
+        jar="/home/apex/.gradle/caches/modules-2/files-2.1/com.underwaterapps.overlap2druntime/overlap2d-runtime-libgdx/0.1.2-SNAPSHOT/7b7daf7b28f06ff6053531ec7b94dd9edeebf493/overlap2d-runtime-libgdx-0.1.2-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7b7daf7b28f06ff6053531ec7b94dd9edeebf493">
+        <dex dex="/home/apex/GitHub/Tren/android/build/intermediates/pre-dexed/debug/overlap2d-runtime-libgdx-0.1.2-SNAPSHOT-1b8ccfe9d63761ac8c4d875afefb468983982304.jar" />
     </item>
 
 </items>

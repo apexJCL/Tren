@@ -1,5 +1,6 @@
 package com.ariel.Stages;
 
+import com.ariel.ActionResolver;
 import com.ariel.Managers.SceneManager;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
@@ -11,17 +12,23 @@ import com.uwsoft.editor.renderer.SceneLoader;
 import com.uwsoft.editor.renderer.data.CompositeItemVO;
 import com.uwsoft.editor.renderer.scene2d.CompositeActor;
 
+import javax.swing.*;
+
 /**
  * Esta clase alberga los menues
  */
 public class Menu extends Stage {
 
     private static CompositeActor play_button;
+    private static CompositeActor connect_button;
     private final CompositeActor cfg_button;
     private static SceneManager manager;
+    private static ActionResolver resolver;
 
-    public Menu(final SceneManager manager, SceneLoader sceneLoader){
+    public Menu(final SceneManager manager, SceneLoader sceneLoader, ActionResolver resolver){
         super(new FitViewport(720, 1280));
+        // Guardamos el resolver
+        this.resolver = resolver;
         Gdx.input.setInputProcessor(this);
         Gdx.input.setCatchBackKey(false);
         // Guardamos la referencia al manager
@@ -31,12 +38,14 @@ public class Menu extends Stage {
         // Instanciamos botones
         play_button = new CompositeActor(button1, sceneLoader.getRm());
         cfg_button = new CompositeActor(sceneLoader.loadVoFromLibrary("cfg_btn"), sceneLoader.getRm());
+        connect_button = new CompositeActor(sceneLoader.loadVoFromLibrary("multiplayer"), sceneLoader.getRm());
         play_button.addListener(new MenuListener(MenuListener.Button.PLAY, play_button));
-        cfg_button.addListener(new MenuListener(MenuListener.Button.CONFIG, cfg_button));
+        connect_button.addListener(new MenuListener(MenuListener.Button.CONNECT, connect_button));
         Table menu = new Table();
         menu.setFillParent(true);
         menu.add(play_button).center().pad(5f).row();
         menu.add(cfg_button).center().pad(5f).row();
+        menu.add(connect_button).center().pad(5f).row();
         addActor(menu);
     }
 
@@ -72,11 +81,28 @@ public class Menu extends Stage {
                 case CONFIG:
                     manager.changeScene(SceneManager.State.CONFIG);
                     break;
+                case CONNECT:
+                    switch (Gdx.app.getType()){
+                        case Android:
+                            resolver.showToast("Conectando...");
+                            resolver.showToast("Error en la conexión, revise su firewall.");
+                            break;
+                        case HeadlessDesktop:
+                        case Desktop:
+                            new Runnable(){
+                                @Override
+                                public void run() {
+                                    JOptionPane.showMessageDialog(null, "Conexión fallida, revise su firewall");
+                                }
+                            }.run();
+                            break;
+                    }
+                    break;
             }
         }
 
         public enum Button{
-            PLAY, CONFIG
+            PLAY, CONFIG, CONNECT
         }
     }
 

@@ -11,15 +11,25 @@ import com.kotcrab.vis.ui.VisUI;
 
 public class MainGame extends ApplicationAdapter {
 
+    private ActionResolver resolver;
     private SceneManager sceneManager;
+
+    public MainGame(ActionResolver resolver){
+        this.resolver = resolver;
+    }
+
+    public MainGame(){
+
+    }
 
     @Override
 	public void create () {
+
         // Cargamos VisUI
         VisUI.load();
         configLoader();
         // Creamos el manejador de escenas
-        sceneManager = new SceneManager();
+        sceneManager = new SceneManager(resolver);
     }
 
     private void configLoader() {

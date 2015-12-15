@@ -1,6 +1,6 @@
 package com.ariel.Managers;
 
-import com.ariel.Config;
+import com.ariel.ActionResolver;
 import com.ariel.Scenes.BaseSceneConfig;
 import com.ariel.Scenes.ConfigScene;
 import com.ariel.Scenes.GameScene;
@@ -8,7 +8,6 @@ import com.ariel.Scenes.MenuScene;
 import com.ariel.Stages.ConfigMenu;
 import com.ariel.Stages.HUD;
 import com.ariel.Stages.Menu;
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.uwsoft.editor.renderer.SceneLoader;
@@ -18,12 +17,15 @@ import com.uwsoft.editor.renderer.SceneLoader;
  */
 public class SceneManager {
 
+    private ActionResolver resolver;
     private BaseSceneConfig actualScene;
     private final FitViewport viewport;
     private SceneLoader sceneLoader;
     private Stage stage;
 
-    public SceneManager(){
+    public SceneManager(ActionResolver resolver){
+        // Guardamos el resolver
+        this.resolver = resolver;
         viewport = new FitViewport(9, 16);
         // Este se encarga de cargar las escenas
         sceneLoader = new SceneLoader();
@@ -32,7 +34,7 @@ public class SceneManager {
         // Le indicamos que cargue la escena
         actualScene.Load();
         // Cargamos el stage de stage
-        stage = new Menu(this, sceneLoader);
+        stage = new Menu(this, sceneLoader, resolver);
     }
 
     /**
@@ -58,7 +60,7 @@ public class SceneManager {
             case MENU:
                 actualScene = new MenuScene("Menu", sceneLoader, viewport);
                 // Cargamos el stage de stage
-                stage = new Menu(this, sceneLoader);
+                stage = new Menu(this, sceneLoader, resolver);
                 break;
             case GAMEPLAY:
                 // Cargamos el HUD antes que la escena, ya que aqui se ocupa acceder a cosas del mismo
